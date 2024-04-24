@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.zoo.polymorphism</OriginalElement>
+  <nodes>
+    <node x="-1200.4001999885643" y="-44.85955231975854">com.example.zoo.polymorphism.AquaticAnimal</node>
+    <node x="-861.0333605144431" y="7.912136387770367">com.example.zoo.interfaces.Swimmable</node>
+    <node x="-1279.7136237606167" y="123.62320522661707">com.example.zoo.animals.Shark</node>
+    <node x="-856.4128598951241" y="124.67407464163728">com.example.zoo.animals.Cat</node>
+    <node x="-846.2055830252798" y="-265.56259823116346">com.example.zoo.polymorphism.Animal</node>
+    <node x="-609.6883602063327" y="2.8309471985355756">com.example.zoo.interfaces.Walkable</node>
+    <node x="-439.3250506592395" y="-20.31951568584287">com.example.zoo.polymorphism.TerrestrialAnimal</node>
+    <node x="-466.22430920510794" y="-222.8004183124392">com.example.zoo.animals.ZooKeeper</node>
+    <node x="-230.14023666848016" y="116.23432767077821">com.example.zoo.animals.Sloth</node>
+    <node x="-1049.9766424900342" y="112.62320522661707">com.example.zoo.animals.Whale</node>
+    <node x="-636.1107148742838" y="173.9948737145677">java.lang.Runnable</node>
+    <node x="-462.8349760877282" y="117.04151983928023">com.example.zoo.animals.Dog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.zoo.polymorphism.TerrestrialAnimal" target="com.example.zoo.interfaces.Walkable" relationship="REALIZATION">
+      <point x="-82.0" y="12.150462884378445" />
+      <point x="55.0" y="0.0" />
+    </edge>
+    <edge source="com.example.zoo.animals.Whale" target="com.example.zoo.polymorphism.AquaticAnimal" relationship="GENERALIZATION">
+      <point x="-64.99950189499259" y="-2.0522661708355372E-4" />
+      <point x="-1066.9588743315508" y="161.623" />
+      <point x="-1066.9588743315508" y="161.62320522661707" />
+      <point x="-1119.4001999885643" y="161.62320522661707" />
+      <point x="-1119.4001999885643" y="4.140000000000001" />
+      <point x="-80.99980001143581" y="-4.4768024145724894E-4" />
+    </edge>
+    <edge source="com.example.zoo.animals.Cat" target="com.example.zoo.polymorphism.TerrestrialAnimal" relationship="GENERALIZATION">
+      <point x="63.91285989512414" y="-93.00007464163727" />
+      <point x="-712.5" y="73.0" />
+      <point x="-357.325" y="73.0" />
+      <point x="5.0659239491324115E-5" y="37.999515685842866" />
+    </edge>
+    <edge source="com.example.zoo.animals.Dog" target="java.lang.Runnable" relationship="REALIZATION">
+      <point x="-80.00002391227179" y="-42.54651983928022" />
+      <point x="-462.835" y="200.9948737145677" />
+      <point x="-504.9720838903744" y="200.9948737145677" />
+      <point x="-504.9720838903744" y="205.15491310160417" />
+      <point x="59.8117509705404" y="4.160039387036477" />
+    </edge>
+    <edge source="com.example.zoo.animals.Cat" target="java.lang.Runnable" relationship="REALIZATION">
+      <point x="79.99985989512413" y="-7.464163726922379E-5" />
+      <point x="-671.8104946524064" y="217.674" />
+      <point x="-671.8104946524064" y="217.67407464163728" />
+      <point x="-651.0554999999999" y="217.67407464163728" />
+      <point x="-651.0554999999999" y="200.995" />
+      <point x="-56.00028512571623" y="1.2628543231585354E-4" />
+    </edge>
+    <edge source="com.example.zoo.animals.Shark" target="com.example.zoo.polymorphism.AquaticAnimal" relationship="GENERALIZATION">
+      <point x="63.500202637621896" y="3.4589525125738874E-4" />
+      <point x="-1119.4001999885643" y="161.62355112186833" />
+      <point x="-1119.4001999885643" y="4.140000000000001" />
+      <point x="-80.99980001143581" y="-4.4768024145724894E-4" />
+    </edge>
+    <edge source="com.example.zoo.animals.Sloth" target="com.example.zoo.polymorphism.TerrestrialAnimal" relationship="GENERALIZATION">
+      <point x="2.366684801700103E-4" y="-38.00032767077822" />
+      <point x="-172.14" y="73.0" />
+      <point x="-357.325" y="73.0" />
+      <point x="5.0659239491324115E-5" y="37.999515685842866" />
+    </edge>
+    <edge source="com.example.zoo.animals.Dog" target="com.example.zoo.interfaces.Swimmable" relationship="REALIZATION">
+      <point x="-2.3912271785775374E-5" y="-81.99951983928023" />
+      <point x="-382.835" y="88.0" />
+      <point x="-798.033" y="88.0" />
+      <point x="3.6051444305940095E-4" y="26.99986361222964" />
+    </edge>
+    <edge source="com.example.zoo.animals.Dog" target="com.example.zoo.polymorphism.TerrestrialAnimal" relationship="GENERALIZATION">
+      <point x="-19.165023912271806" y="-81.99951983928023" />
+      <point x="-402.0" y="73.0" />
+      <point x="-357.325" y="73.0" />
+      <point x="5.0659239491324115E-5" y="37.999515685842866" />
+    </edge>
+    <edge source="com.example.zoo.polymorphism.AquaticAnimal" target="com.example.zoo.polymorphism.Animal" relationship="GENERALIZATION">
+      <point x="81.00019998856419" y="11.271552319758541" />
+      <point x="-924.997" y="15.411999999999999" />
+      <point x="-924.997" y="-38.0" />
+      <point x="-755.206" y="-38.0" />
+      <point x="-4.1697472022406146E-4" y="103.99959823116346" />
+    </edge>
+    <edge source="com.example.zoo.polymorphism.AquaticAnimal" target="com.example.zoo.interfaces.Swimmable" relationship="REALIZATION">
+      <point x="1.9998856419078948E-4" y="48.99955231975854" />
+      <point x="-1119.4" y="88.0" />
+      <point x="-798.033" y="88.0" />
+      <point x="3.6051444305940095E-4" y="26.99986361222964" />
+    </edge>
+    <edge source="com.example.zoo.animals.Cat" target="com.example.zoo.interfaces.Swimmable" relationship="REALIZATION">
+      <point x="-1.40104875868019E-4" y="-93.00007464163727" />
+      <point x="-776.413" y="88.0" />
+      <point x="-798.033" y="88.0" />
+      <point x="3.6051444305940095E-4" y="26.99986361222964" />
+    </edge>
+    <edge source="com.example.zoo.polymorphism.TerrestrialAnimal" target="com.example.zoo.polymorphism.Animal" relationship="GENERALIZATION">
+      <point x="5.0659239491324115E-5" y="-38.000484314157134" />
+      <point x="-357.325" y="-38.0" />
+      <point x="-755.206" y="-38.0" />
+      <point x="-4.1697472022406146E-4" y="103.99959823116346" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="-570.8115307486632" y="116.65106951871655" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
